@@ -29,6 +29,7 @@ final class ProgramViewModelTests: XCTestCase {
                 case .finished:
                     print("Terminer")
                 }
+                
             }
             receiveValue: { programData in
                 let viewModel =  Program.Fetch.ViewModel(response: programData)
